@@ -1,0 +1,81 @@
+/*
+Author: Richard Camuccio
+Date: 17 Apr 2023
+*/
+
+/* formatting */
+body{
+	background-attachment: fixed;
+	background-color: rgb(50, 50, 50);
+	background-image: url("Pictures/WPX4R9Z9.jpg");
+	color: white;
+	font-family: monospace;
+	font-size: large;
+}
+
+h4{
+	font-size: large;
+	line-height: 1;
+	padding-left: 5px;
+}
+
+li{
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+p{
+	line-height: 150%;
+}
+
+/* links */
+a:link{
+	color: rgb(0, 196, 255);
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgb(0, 195, 255);
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgb(0, 196, 255);
+	text-decoration: underline;
+}
+
+/* div */
+.container{
+	/* background-color: rgb(130, 130, 130); */
+	/* padding: 1px 10px 1px 10px; /* top right bottom left */
+}
+
+.container_header{
+	/* background-color: rgb(110, 110, 110); */
+	/* padding: 15px 5px 90px 5px; */
+	/* text-align: justify; */
+}
+
+.container_main{
+	/* background-color: rgb(90, 90, 90); */
+	/* margin: auto; */
+	/* padding: 15px 15px 15px 15px; */
+	/* text-align: justify; */
+	width: 1600 px;
+}
+
+.wrapper{
+	padding: 1px 1px 1px 1px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.rotate270{
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
